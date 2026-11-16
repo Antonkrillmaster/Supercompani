@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    padding: 100px 10px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.menü{
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0%;
+    z-index: 100;
+    width: 100%;
+    padding: 15px;
+    line-height: 55px;
+    
+
+}
+.menü-links{
+    float: right;
+    
+}
+.menü-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.menü-links a:hover{
+    color: orange;
+}
+
+
+
+
+
+
+
+.header{
+    height: 100vh;
+    background: linear-gradient( #DB7E7E , #FFC997);
+    position: relative;
+    overflow: hidden;
+}
+.header-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.header-title {
+font-size: 87px;
+color: white;
+text-shadow: 10px 10px 2px red;
+margin-bottom: 50px;
+
+
+}
+.header-link {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 20px;
+transition: 0.5s;
+}
+.header-link:hover{
+    box-shadow: 10px 10px 2px red;
+}
+.circle-bordered{
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    z-index: 5;
+}
+.circle-dashed-border{
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+}
+.circle1{
+    position: absolute;
+    top: -3%;
+    left: -3%;
+}
+.circle2{
+    position: absolute;
+    top: -3%;
+    right: -3%;
+}
+.circle3{
+    position: absolute;
+    bottom:-5% ;
+    left:-3% ;
+}
+.octagon{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
+.triangle{
+    position: absolute;
+    top: 10%;
+    right: 48%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.do{
+background: linear-gradient(7deg, #DB7E7E 18.07%, #FFC997 70%, #FFFFFF 70%);
+}
+.do-left{
+width: 49%;
+display: inline-block;
+vertical-align: top;
+
+}
+.do-right{
+width: 50%;
+display: inline-block;
+}
+.do-img{
+    width: 100%;
+}
+.do-img:hover{
+    transform: rotate(-5deg);
+}
+.p{
+    background-color: white;
+    box-shadow: 10px 10px 2px red;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+.servic{
+  background: linear-gradient(340.62deg, #FFFFFF 45.63%, #DB7F7E 45.64%);  
+  text-align: center;
+}
+.servic-card{
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+    padding: 15px;
+    margin: 0 1%;
+    border: 3px solid orange;
+    border-radius: 17px;
+    height: 415px;
+    transition: 0.2s;
+}
+.servic-card:hover{
+    transform: translateY(-10px);
+}
+.servic-card hr{
+    width: 70%;
+    height: 3px;
+    background-color: #DB7E7E;
+    margin: 15px auto;
+    border: none;
+}
+.servic-h2{
+    color: white;
+}
+
+
+
+
+
+.good{
+    position: relative;
+}
+.good-card{
+    width: 600px;
+    background-color: white;
+    border: 3px solid orange;
+    border-radius: 17px;
+    padding: 30px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px red;
+    transition: 0.2s;
+}
+.good-card:hover{
+    box-shadow: 10px 10px 2px red;
+}
+.good-ul{
+    padding-left: 20px;
+    margin-top: 15px;
+    list-style: circle;
+}
+.gc1{
+    transform: translateX(-100px);
+}
+.gc2{
+    transform: translateX(200px);
+}
+.good-background2{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 20%;
+}
+.good-background1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+}
+
+
+
+
+
+.job{
+    text-align: center;
+}
+.job-img{
+    width: 49%;
+    display: inline-block;
+    border: 5px solid orange;
+    border-radius: 17px;
+    filter: brightness(90%);
+    transition: 0.3s;
+}
+.job-img:hover{
+filter: none;
+transform: scale(1.02);
+box-shadow: 0 0 8px red;
+}
+
+
+.end{
+      background: linear-gradient( #DB7E7E , #FFC997);
+      text-align: center;
+}
+.end h2{
+    margin-bottom: 50px;
+
+}
